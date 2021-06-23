@@ -1,5 +1,5 @@
 
-* [概览](/uclickhouse/README)
+* [概览](README.md)
 * [产品介绍](/uclickhouse/architecture)
 * [快速上手](/uclickhouse/gettingstart)
 * [操作指南](/uclickhouse/operation_guide)
