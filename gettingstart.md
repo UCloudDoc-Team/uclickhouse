@@ -23,12 +23,13 @@
 存储规格
 
 |  磁盘类型  |     可选范围    |
+|------------|-----------------|
 |  普通云盘  |   100 - 8000GB  |       
 |  RSSD云盘  |   100 - 32000GB |
 
 3.创建admin账号：
 
-默认为用户初始化一个管理员显权限的admin账号，确认输入密码。
+默认为用户初始化一个管理员权限的admin账号，确认输入密码。
 
 ![image](images/gettingstart3.png)
 
@@ -46,13 +47,13 @@ UClickHouse默认为用户开放了tcp9000端口、http8123端口以及mysql9004
 
 下载客户端:
 
-[下载](https://repo.yandex.ru/clickhouse/rpm/stable/x86_64/)
+下载对应版本common-static和client的rpm包
+[https://repo.yandex.ru/clickhouse/rpm/stable/x86_64/](https://repo.yandex.ru/clickhouse/rpm/stable/x86_64/)
 
 安装:
 ```
 rpm‐ivhclickhouse‐common‐static‐21.1.2.15‐2.x86_64.rpm 
 rpm‐ivhclickhouse‐client‐21.1.2.15‐2.noarch.rpm
-
 ``` 
 在集群详情页查询节点列表，访问任一节点服务:
 ```

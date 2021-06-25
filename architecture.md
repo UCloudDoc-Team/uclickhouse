@@ -4,7 +4,9 @@
 ## UClickhouse数据仓库产品架构
 
 服务架构如图：
+
 ![image](images/architecture1.png)
+
 UClickhouse设计为clickhouse集群+zookeeper集群。zookeeper集群与clickhouse集群分开部署。zookeeper设计为三节点集群，clickhouse设计为单集群，多分片，双副本结构。每个副本（节点）单独部署在云主机上，每台云主机只提供一个分片的副本服务。
 
 
