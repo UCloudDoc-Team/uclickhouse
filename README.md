@@ -6,7 +6,7 @@
 * 数据同步
     * [本地数据导入](dump_data/local_data.md)
     * [mysql数据导入](dump_data/mysql_data.md)
-    * [clickhouse间数据导入](dump/clickhouse_data.md)
+    * [clickhouse间数据导入](dump_data/clickhouse_data.md)
 * [访问数据仓库](connect.md)
 * [开发指南](developer.md)
 * [计费说明](price.md)

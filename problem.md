@@ -1,8 +1,7 @@
 # 常见问题
 
 * 内存超限异常
-[image](images/problem1.png)
-
+![image](images/problem1.png)
 
 解决：
 ```
