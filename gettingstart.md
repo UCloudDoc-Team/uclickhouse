@@ -52,8 +52,8 @@ UClickHouse默认为用户开放了tcp9000端口、http8123端口以及mysql9004
 
 安装:
 ```
-rpm‐ivhclickhouse‐common‐static‐21.1.2.15‐2.x86_64.rpm 
-rpm‐ivhclickhouse‐client‐21.1.2.15‐2.noarch.rpm
+rpm‐ivh clickhouse‐common‐static‐21.1.2.15‐2.x86_64.rpm 
+rpm‐ivh clickhouse‐client‐21.1.2.15‐2.noarch.rpm
 ``` 
 在集群详情页查询节点列表，访问任一节点服务:
 ```
