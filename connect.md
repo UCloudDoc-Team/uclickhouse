@@ -5,106 +5,46 @@
 1.使用maven管理项目下载依赖包：
 
 ```
-<dependency>
-   <groupId>ru.yandex.clickhouse</groupId>
-   <artifactId>clickhouse-jdbc</artifactId>
-   <version>0.2.4</version>
-</dependency>
+    <dependencies>
+        <dependency>
+            <groupId>ru.yandex.clickhouse</groupId>
+            <artifactId>clickhouse-jdbc</artifactId>
+            <version>0.1.40</version>
+        </dependency>
+    </dependencies>
 ```
-
-2.编写代码：
+2.代码实例：
 
 ```
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.sql.Timestamp;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.sql.*;
 
-public class JDBC {
-  private static final String DATE_FORMAT = "yyyy-MM-dd HH:mm:ss";
-  private static final SimpleDateFormat SIMPLE_DATE_FORMAT = new SimpleDateFormat(DATE_FORMAT);
+public class JDBC_Clickhouse {
 
-  public static void main(String[] args) throws ClassNotFoundException, SQLException, InterruptedException, ParseException {
-    String url = "url";
-    String username = "username";
-    String password = "password";
+    private static Connection connection = null;
 
-    Class.forName("ru.yandex.clickhouse.ClickHouseDriver");
-    String connectionStr = "jdbc:clickhouse://" + url + ":8123";
+    static {
+            try {
+                Class.forName("ru.yandex.clickhouse.ClickHouseDriver");   //加载驱动包
+                String url = "jdbc:clickhouse://node_ip:8123/system";   //访问url路径，node_ip为访问节点ip
+                String user = "admin";   //登陆集群的账号
+                String password = "password";  //登陆集群的密码
+                connection = DriverManager.getConnection(url, user, password);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
 
-    try (Connection connection = DriverManager.getConnection(connectionStr, username, password);
-         Statement stmt = connection.createStatement()) {
-
-      {
-        String createTableDDL = "create table test_table on cluster default " +
-            "(id UInt32, " +
-            "dt_str String, " +
-            "dt_col DateTime) " +
-            "engine=ReplicatedMergeTree('/clickhouse/tables/test_table/{shard}', '{replica}')" +
-            "partition by toYYYYMM(dt_col)" +
-            "order by (id)" +
-            "primary key (id)" +
-            "sample by (id)" +
-            "settings index_granularity = 8192;";
-        stmt.execute(createTableDDL);
-        System.out.println("create local table done.");
-      }
-      {
-        String createTableDDL = "create table test_dist on cluster default " +
-            "as default.test_table " +
-            "engine=Distributed(default, default, test_table, rand());";
-        stmt.execute(createTableDDL);
-        System.out.println("create distributed table done");
-      }
-
-      System.out.println("write 100000 rows...");
-      long startTime = System.currentTimeMillis();
-
-      // Write 10 batch
-      for (int batch = 0; batch < 10; batch++) {
-        StringBuilder sb = new StringBuilder();
-
-        // Build one batch
-        sb.append("insert into test_dist values(" + (batch * 10000) + ", '2020-02-19 16:00:00', '2020-02-19 16:00:00')");
-        for (int row = 1; row < 10000; row++) {
-          sb.append(", (" + (batch * 10000 + row) + ", '2020-02-19 16:00:00', '2020-02-19 16:00:00')");
-        }
-
-        // Write one batch: 10000 rows
-        stmt.execute(sb.toString());
-      }
-
-      long endTime = System.currentTimeMillis();
-      System.out.println("total time cost to write 10W rows: " + (endTime - startTime) + "ms");
-
-      Thread.sleep(2 * 1000);
-
-      System.out.println("Select count(id)...");
-      try (ResultSet rs = stmt.executeQuery("select count(id) from test_dist");) {
-        while (rs.next()) {
-          int count = rs.getInt(1);
-          System.out.println("id count: " + count);
-        }
-      }
-
-      try (ResultSet rs = stmt.executeQuery("select id, dt_str, dt_col from test_dist limit 10");) {
-        while (rs.next()) {
-          int id = rs.getInt(1);
-          String dateStr = rs.getString(2);
-          Timestamp time = rs.getTimestamp(3);
-
-          String defaultDate = SIMPLE_DATE_FORMAT.format(new Date(time.getTime()));
-          System.out.println("id: " + id
-              + ", date_str:" + dateStr
-              + ", date_col:" + defaultDate);
-        }
-      }
     }
-  }
+    public static void main(String[] args) throws SQLException{
+        Statement statement = connection.createStatement();
+        ResultSet resultSet = statement.executeQuery("select * from system.clusters");
+        ResultSetMetaData metaData = resultSet.getMetaData();
+        int columnCount = metaData.getColumnCount();
+        while (resultSet.next()) {
+            for (int i = 1; i <= columnCount; ++i) {
+                System.out.println(metaData.getColumnName(i) + ":" + resultSet.getString(i));
+            }
+        }
+    }
 }
+
 ```

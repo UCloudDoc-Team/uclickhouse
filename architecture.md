@@ -5,7 +5,7 @@
 
 服务架构如图：
 
-![image](images/architecture1.png)
+![image](images/image1.png)
 
 UClickhouse设计为clickhouse集群+zookeeper集群。zookeeper集群与clickhouse集群分开部署。zookeeper设计为三节点集群，clickhouse设计为单集群，多分片，双副本结构。每个副本（节点）单独部署在云主机上，每台云主机只提供一个分片的副本服务。
 
@@ -13,6 +13,7 @@ UClickhouse设计为clickhouse集群+zookeeper集群。zookeeper集群与clickho
 ## 产品特性
 
 ### 开箱即用
+<<<<<<< HEAD
    
    控制台上简单的操作，数分钟就可以创建一个可以支撑TB-PB级别的数据仓库，同时很方便的进行配置参数变更、账号管理等操作。
 
@@ -28,6 +29,18 @@ UClickhouse设计为clickhouse集群+zookeeper集群。zookeeper集群与clickho
 
    充分利用云上资源优势，结合ClickHouse本身特性，可以按需申请分片个数，无需为搭建数仓一次性投入高额成本，同时减低运维人力成本。
 
+=======
+控制台上简单的操作，数分钟就可以创建一个可以支撑TB-PB级别的数据仓库，同时很方便的进行配置参数变更、账号管理等操作。
+
+### 高性能分析
+UClickHouse是基于开源ClickHouse的优异查询性能，面向联机分析处理的列式数据库，支持SQL查询，且查询性能好，特别是基于大宽表的聚合分析查询性能非常优异，比其他分析型数据库速度快一个数量级。
+
+### 智能运维
+通过完善的监控体系、结合专业的运维工具，及时的发现并排除风隐患、有效的降低故障率、提供系统的稳定性。
+
+### 低成本
+充分利用云上资源优势，结合ClickHouse本身特性，可以按需申请分片个数，无需为搭建数仓一次性投入高额成本，同时减低运维人力成本。
+>>>>>>> d0e7791 (change jdbc connect and image)
 
 ## 使用限制
  
