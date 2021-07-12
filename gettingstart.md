@@ -1,7 +1,7 @@
 # 快速开始
 
 ## 一、创建数据库
-1.控制台所有产品搜索或在数据分析类别下找到 "云数据仓库UClickHouse"，点击进入UClickHouse控制台：
+1.控制台所有的产品搜索或在数据分析类别下找到 "云数据仓库UClickHouse"，点击进入UClickHouse控制台：
 
 ![image](images/gettingstart1.png)
 
