@@ -26,6 +26,17 @@
 
 集群创建初始化已经为用户创建一个管理员权限的admin账户，此账户为用户所有权限账户，不可删除修改
 
+![image](images/user1.png)
+
+点击创建一个普通账号，设置各种权限：
+
+![image](images/user2.png)
+
+选择数据库权限：
+
+![image](images/user3.png)
+
+
 ## 查看操作日志
 
 ![image](images/operation3.png)
