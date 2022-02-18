@@ -1,13 +1,13 @@
 # 产品介绍
-   UClickHouse为ClickHouse提供了一整套安全、稳定、可靠的托管服务，针对不同规模数据、硬件进行优化，并提供额外便捷的工具支持，使您在使用ClickHouse服务时不再需要为集群的配置、选型、故障、运维、开发工具等操心。
+   UDW ClickHouse为ClickHouse提供了一整套安全、稳定、可靠的托管服务，针对不同规模数据、硬件进行优化，并提供额外便捷的工具支持，使您在使用ClickHouse服务时不再需要为集群的配置、选型、故障、运维、开发工具等操心。
 
-## UClickhouse数据仓库产品架构
+## UDW Clickhouse数据仓库产品架构
 
 服务架构如图：
 
 ![image](images/image1.png)
 
-UClickhouse设计为clickhouse集群+zookeeper集群。zookeeper集群与clickhouse集群分开部署。zookeeper设计为三节点集群，clickhouse设计为单集群，多分片，双副本结构。每个副本（节点）单独部署在云主机上，每台云主机只提供一个分片的副本服务。
+UDW Clickhouse设计为clickhouse集群+zookeeper集群。zookeeper集群与clickhouse集群分开部署。zookeeper设计为三节点集群，clickhouse设计为单集群，多分片，双副本结构。每个副本（节点）单独部署在云主机上，每台云主机只提供一个分片的副本服务。
 
 
 ## 产品特性
@@ -18,7 +18,7 @@ UClickhouse设计为clickhouse集群+zookeeper集群。zookeeper集群与clickho
 
 ### 高性能分析
 
-   UClickHouse是基于开源ClickHouse的优异查询性能，面向联机分析处理的列式数据库，支持SQL查询，且查询性能好，特别是基于大宽表的聚合分析查询性能非常优异，比其他分析型数据库速度快一个数量级。
+   UDW ClickHouse是基于开源ClickHouse的优异查询性能，面向联机分析处理的列式数据库，支持SQL查询，且查询性能好，特别是基于大宽表的聚合分析查询性能非常优异，比其他分析型数据库速度快一个数量级。
 
 ### 智能运维
    
