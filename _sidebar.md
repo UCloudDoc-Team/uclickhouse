@@ -1,15 +1,30 @@
 
 * [概览](/uclickhouse/README)
+
 * [产品动态](/uclickhouse/dynamics)
+
 * [产品介绍](/uclickhouse/architecture)
+
+    * [什么是云数据仓库 UClickHouse](/uclickhouse/architecture/simple_intro)
+    * [产品优势](/uclickhouse/architecture/advantages)
+    * [应用场景](/uclickhouse/architecture/scenarios)
+    * [基本概念](/uclickhouse/architecture/basic_concept)
+    * [使用限制](/uclickhouse/architecture/limit)
+
 * [快速上手](/uclickhouse/gettingstart)
+
 * [操作指南](/uclickhouse/operation_guide)
+
 * 数据同步
     * [本地数据导入](/uclickhouse/dump_data/local_data)
     * [mysql数据导入](/uclickhouse/dump_data/mysql_data)
     * [clickhouse间数据导入](/uclickhouse/dump_data/clickhouse_data)
+    
 * [访问数据仓库](/uclickhouse/connect)
+
 * [开发指南](/uclickhouse/developer)
+
 * [计费说明](/uclickhouse/price)
+
 * [常见问题](/uclickhouse/problem)
 
