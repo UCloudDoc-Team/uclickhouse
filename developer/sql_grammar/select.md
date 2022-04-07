@@ -75,7 +75,7 @@ ARRAY JOIN本质上等同于INNER JOIN数组。例如：
 CREATE TABLE ck_array(id UInt8,scores Array(UInt8)) ENGINE = Memory;
 ```
 
-![Array_Join](Array_Join.png)
+![Array_Join](images/Array_Join.png)
 
 ```
 INSERT INTO ck_array VALUES (1,[89,91]),(2,[77,67]),(3,[79,89])
@@ -113,9 +113,7 @@ SELECT id, scores FROM ck_array ARRAY JOIN scores
 
 例如：在一个需要提取大量列的查询中为少部分列编写PREWHERE是很有作用的。
 
-```
 提示：PREWHERE仅支持*MergeTree系列引擎。在一个查询中可以同时指定PREWHERE和WHERE，在这种情况下，PREWHERE优先于WHERE执行。PREWHERE不适合用于已经存在于索引中的列，因为当列已经存在于索引中的情况下，只有满足索引的数据块才会被读取。如果将'optimize_move_to_prewhere'设置为1，并且在查询中不包含PREWHERE，则系统将自动的把适合PREWHERE表达式的部分从WHERE中抽离到PREWHERE中。
-```
 
 ## WITH TOTALS 修饰符
 

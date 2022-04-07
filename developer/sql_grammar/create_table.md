@@ -63,15 +63,10 @@ ORDER BY expr
                 双副本版集群建表时，需要使用MergeTree系列引擎中支持数据复制的Replicated*引擎，否则副本之间不进行数据复制，导致数据查询结果不一致。使用该引擎建表时，参数填写方式如下。
                 <ul>
                     <li>
-                        <code>
-                            ReplicatedMergeTree('/clickhouse/tables/{database}/{table}/{shard}',
-                            '{replica}')
-                        </code>，参数中的字符不允许修改。
+                          ReplicatedMergeTree('/clickhouse/tables/{database}/{table}/{shard}','{replica}')，参数中的字符不允许修改。
                     </li>
-                    <li><code>ReplicatedMergeTree()</code>，等同于
-                        <code>ReplicatedMergeTree('/clickhouse/tables/{database}/{table}/{shard}',
-                        '{replica}')
-                        </code>。
+                    <li>ReplicatedMergeTree()，等同于ReplicatedMergeTree('/clickhouse/tables/{database}/{table}/{shard}',
+                        '{replica}')。
                     </li>
                 </ul>
             </div>

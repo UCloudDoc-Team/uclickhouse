@@ -31,9 +31,7 @@ AS SELECT ...
     <tr>
         <td><code>TO[db.]name</code></td>
         <td>将物化视图的数据写入到新表中。
-            <div>
-                如果需要将物化视图的数据写入新表，不能使用<code>POPULATE</code>关键字。
-            </div>
+           如果需要将物化视图的数据写入新表，不能使用<code>POPULATE</code>关键字。
         </td>
     </tr>
     <tr>
@@ -54,9 +52,7 @@ AS SELECT ...
             <code>POPULATE</code>关键字，则在创建时将
             <code>SELECT</code>子句所指定的源表数据插入到物化视图中。不指定
             <code>POPULATE</code>关键字时，物化视图只会包含在物化视图创建后新写入源表的数据。
-            <div>
-                一般不推荐使用<code>POPULATE</code>关键字，因为在物化视图创建期间写入源表的数据将不会写入物化视图中。
-            </div>
+           一般不推荐使用<code>POPULATE</code>关键字，因为在物化视图创建期间写入源表的数据将不会写入物化视图中。
         </td>
     </tr>
     <tr>
@@ -66,14 +62,12 @@ AS SELECT ...
             子句。当数据写入物化视图中
             <code>SELECT</code>子句所指定的源表时，插入的数据会通过
             <code>SELECT</code>子句查询进行转换并将最终结果插入到物化视图中。
-            <div>
-                <code>SELECT</code>
+             <code>SELECT</code>
                 查询可以包含
                 <code>DISTINCT</code>、
                 <code>GROUP BY</code>、
                 <code>ORDER BY</code>和
                 <code>LIMIT</code>等，但是相应的转换是在每个插入数据块上独立执行的。
-            </div>
         </td>
     </tr>
     </tbody>
