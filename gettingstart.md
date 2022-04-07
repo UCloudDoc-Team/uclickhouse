@@ -54,7 +54,7 @@
 - 通过clickhouse-client连接集群
 
   ```shell
-  clickhouse-client --host=任一节点IP地址 --port=9000 --user=admin --password=创建集群时设置的密码
+  clickhouse-client --host=<任一节点IP地址> --port=9000 --user=admin --password=<创建集群时设置的密码>
   ```
 
   ![](images/clickhouse-client-login.png)
@@ -150,7 +150,7 @@ ENGINE = MergeTree ORDER BY (LO_ORDERKEY);
 使用clickhouse-client非交互模式执行以下命令导入数据
 
 ```shell
-clickhouse-client --host=任一节点IP地址 --port=9000 --user=admin --password=创建集群时设置的密码 --database=ck_test  --query "INSERT INTO lineorder FORMAT CSV" < /data/lineorder.csv
+clickhouse-client --host=<任一节点IP地址> --port=9000 --user=admin --password=<创建集群时设置的密码> --database=ck_test  --query "INSERT INTO lineorder FORMAT CSV" < /data/lineorder.csv
 ```
 
 ## 查询数据
@@ -158,7 +158,7 @@ clickhouse-client --host=任一节点IP地址 --port=9000 --user=admin --passwor
 - 使用clickhouse-client非交互模式执行查询
 
   ```
-  clickhouse-client --host=任一节点IP地址 --port=9000 --user=admin --password=创建集群时设置的密码 --database=ck_test  --query="select * from lineorder"
+  clickhouse-client --host=<任一节点IP地址> --port=9000 --user=admin --password=<创建集群时设置的密码> --database=ck_test  --query="select * from lineorder"
   ```
 
 ![clickhouse-client-query-1](images/clickhouse-client-query-1.png)
@@ -166,7 +166,7 @@ clickhouse-client --host=任一节点IP地址 --port=9000 --user=admin --passwor
 - 使用clickhouse-client交互模式执行查询
 
   ```
-  clickhouse-client --host=任一节点IP地址 --port=9000 --user=admin --password=创建集群时设置的密码 --database=ck_test
+  clickhouse-client --host=<任一节点IP地址> --port=9000 --user=admin --password=<创建集群时设置的密码> --database=ck_test
   ```
 
   ![clickhouse-client-query-3](images/clickhouse-client-query-3.png)
