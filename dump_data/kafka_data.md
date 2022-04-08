@@ -2,11 +2,13 @@
 
 登录Ucloud账号进入到[用户控制台](https://passport.ucloud.cn/#login)，在全部产品下搜索或者大数据下选择“Kafka消息队列 UKafka”，进入到[Kafka消息队列 UKafka控制台](https://console.ucloud.cn/ukafka/ukafka)下，点击**创建集群**按钮。进入创建集群页面，根据创建页提供的配置进行选择并下单。
 
-```
-温馨提示：
-   1.UKafka为付费产品，具体价格请参照创建页所展示。
-   2.请确保UKafka集群和云数据仓库 UClickhouse集群在同一地域内（同一VPC）,如不同请使用 私有网络 VPC -> 网络互通
-```
+<blockquote>
+  温馨提示：
+   <ol>
+     <li>UKafka为付费产品，具体价格请参照创建页所展示。</li>
+     <li>请确保UKafka集群和云数据仓库 UClickhouse集群在同一地域内（同一VPC）,如不同请使用 私有网络 VPC -> 网络互通</li>
+   </ol>
+</blockquote>
 
 ## 前置条件
 
