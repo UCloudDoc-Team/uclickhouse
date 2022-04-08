@@ -60,7 +60,7 @@
     
 * [计费说明](/uclickhouse/price)
 
-* [常见问题](/uclickhouse/problem)
+* 常见问题
 
     * [产品购买与使用](/uclickhouse/problem/product_use)
     * [Clickhouse常见问题](/uclickhouse/problem/clickhouse_use)
