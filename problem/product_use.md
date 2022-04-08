@@ -21,16 +21,3 @@ Clickhouse的存储特性对磁盘吞吐量要求很高，为保证Clickhouse的
 ## 如何连接云数据仓库UClickhouse？
 
 为保证安全，云数据仓库UClickhouse仅提供内网VPC网络，您连接集群时可以配合同一地域的云主机或者网络产品使用。
-
-
-
-
-
-* 
-* 内存超限异常
-  ![image](images/problem1.png)
-
-解决：
-```
-SET max_memory_usage = 20000000000; #20G，
-```

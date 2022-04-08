@@ -54,10 +54,14 @@
     
     * [MaterializeMySQL引擎](/uclickhouse/developer/materializeMySQL)
     
-* 性能测试
-    * [Star Schema Benchmark](/uclickhouse/test/ssb)
-
+* 性能测试指南
+    * [Star Schema Benchmark的使用](/uclickhouse/test/ssb)
+    * [千亿数据测试](/uclickhouse/test/100billion)
+    
 * [计费说明](/uclickhouse/price)
 
 * [常见问题](/uclickhouse/problem)
+
+    * [产品购买与使用](/uclickhouse/problem/product_use)
+    * [Clickhouse常见问题](/uclickhouse/problem/clickhouse_use)
 
