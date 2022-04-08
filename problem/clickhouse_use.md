@@ -133,7 +133,6 @@ system.query_log系统表里可以自助查看CPU、Memory高峰期的查询日�
 - 常见原因1：ClickHouse客户端会进行语法解析，而`set global on cluster default`是服务端增加的语法。在客户端尚未更新到与服务端对齐的版本时，该语法会被客户端拦截。
 
   解决方案：
-
   - 使用JDBC Driver等不会在客户端解析语法的工具，比如DataGrip、DBeaver。
   - 编写JDBC程序来执行该语句。
 
