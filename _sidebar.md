@@ -41,7 +41,7 @@
       * [修改表结构](/uclickhouse/developer/sql_grammar/modify_table)
       * [查看信息](/uclickhouse/developer/sql_grammar/show_info)
       
-    * [函数](/uclickhouse/developer/functions)
+    * 函数
     
       * [常规函数](/uclickhouse/developer/functions/conventional)
       * [聚合函数](/uclickhouse/developer/functions/aggregation)
@@ -55,7 +55,7 @@
     * [MaterializeMySQL引擎](/uclickhouse/developer/materializeMySQL)
     
 * 性能测试
-    * Star Schema Benchmark
+    * [Star Schema Benchmark](/uclickhouse/test/ssb)
 
 * [计费说明](/uclickhouse/price)
 
