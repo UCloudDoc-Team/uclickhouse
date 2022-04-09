@@ -166,4 +166,4 @@ FROM ssb_test.lineorder AS l
 
 ## 运行单表性能测试语句
 
-请参阅 **性能测试指南 -> [单表性能测试语句](/uclickhouse/test/query)**
+请参阅 **性能测试指南 -> [单表性能测试语句](/uclickhouse/test/single_query)**
