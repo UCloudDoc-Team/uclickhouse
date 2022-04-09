@@ -59,7 +59,7 @@
     
       * [Star Schema Benchmark](/uclickhouse/test/tool/ssb)
     
-    * [测试云数据仓库UClickhouse](/uclickhouse/test/uclickhouse_test)
+    * 测试云数据仓库UClickhouse
       
       * 单副本实例测试
       
