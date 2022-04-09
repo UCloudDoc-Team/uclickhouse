@@ -2,7 +2,7 @@
 
 ## 生成测试数据
 
-参考[Star Schema Benchmark的使用](/uclickhouse/test/ssb)
+请参阅性能测试工具[Star Schema Benchmark](/uclickhouse/test/tool/ssb)
 
 **生成数据如下：**
 
@@ -19,7 +19,7 @@
 
 ### **21.8LTS版本,标准型,64核256G,RSSD云盘,4节点,2副本**
 
-以下数据结果基于Star Schema Benchmark工具测试。
+以下数据结果基于Star Schema Benchmark工具进行的**多表测试**。
 
 | 测试类型 | 耗时（ms） |
 | -------- | ---------- |

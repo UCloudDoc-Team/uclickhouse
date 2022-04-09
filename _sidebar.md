@@ -55,8 +55,24 @@
     * [MaterializeMySQL引擎](/uclickhouse/developer/materializeMySQL)
     
 * 性能测试指南
-    * [Star Schema Benchmark的使用](/uclickhouse/test/ssb)
-    * [千亿数据测试](/uclickhouse/test/100billion)
+    * 性能测试工具
+    
+      * [Star Schema Benchmark](/uclickhouse/test/tool/ssb)
+    
+    * [测试云数据仓库UClickhouse](/uclickhouse/test/uclickhouse_test)
+      
+      * 单副本实例测试
+      
+        * [多表测试](/uclickhouse/test/uclickhouse_test/one_replicate_multiple)
+        * [单表测试](/uclickhouse/test/uclickhouse_test/one_replicate_single)
+      * 双副本实例测试 
+        * [多表测试](/uclickhouse/test/uclickhouse_test/two_replicate_multiple)
+        * [单表测试](/uclickhouse/test/uclickhouse_test/two_replicate_single)
+    * [多表性能测试语句](/uclickhouse/test/multiple_query)
+    
+    * [单表性能测试语句](/uclickhouse/test/single_query)
+    
+    * [千亿数据测试指南](/uclickhouse/test/100billion)
     
 * [计费说明](/uclickhouse/price)
 
