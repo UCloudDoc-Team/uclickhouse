@@ -20,7 +20,7 @@ SELECT [DISTINCT] expr_list
     [LIMIT n BY columns]
 ```
 
-所有的子句都是可选的，除了SELECT之后的表达式列表（expr_list）。 下面将选择部分子句进行说明。ClickHouse官网中文文档有更详细说明，请参考[查询语法](https://clickhouse.yandex/docs/zh/query_language/select/)。
+所有的子句都是可选的，除了SELECT之后的表达式列表（expr_list）。 下面将选择部分子句进行说明。ClickHouse官网中文文档有更详细说明，请参考[查询语法](https://clickhouse.com/docs/zh/sql-reference/statements/select/)。
 
 简单查询语句示例：
 
@@ -97,7 +97,7 @@ SELECT id, scores FROM ck_array ARRAY JOIN scores
 
 ## Join 语句Null的处理
 
-请参考[join_use_nulls](https://clickhouse.yandex/docs/zh/operations/settings/settings/)、[Nullable](https://clickhouse.yandex/docs/zh/data_types/nullable/)、[NULL](https://clickhouse.yandex/docs/zh/query_language/syntax/)。
+请参考[join_use_nulls](https://clickhouse.com/docs/zh/operations/settings/settings/)、[Nullable](https://clickhouse.com/docs/en/sql-reference/data-types/nullable)、[NULL](https://clickhouse.com/docs/en/sql-reference/statements/select/#syntax)。
 
 ## WHERE 子句
 

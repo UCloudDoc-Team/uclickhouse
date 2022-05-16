@@ -8,7 +8,7 @@
 SHOW DATABASES [INTO OUTFILE filename] [FORMAT format]SHOW PROCESSLIST [INTO OUTFILE filename] [FORMAT format]SHOW [TEMPORARY] TABLES [{FROM | IN} <db>] [LIKE '<pattern>' | WHERE expr] [LIMIT <N>] [INTO OUTFILE <filename>] [FORMAT <format>]SHOW DICTIONARIES [FROM <db>] [LIKE '<pattern>'] [LIMIT <N>] [INTO OUTFILE <filename>] [FORMAT <format>]
 ```
 
-更多信息，请参考[官方文档](https://clickhouse.tech/docs/en/query_language/show/)
+更多信息，请参考[官方文档](https://clickhouse.com/docs/en/sql-reference/statements/show/)
 
 ## DESCRIBE 语句
 

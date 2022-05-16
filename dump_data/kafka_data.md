@@ -18,7 +18,7 @@
 
 ### 连接集群
 
-- 在集群所在地域（同一网段）下建立一台云主机，在云主机上安装Clickhouse-client，下载地址：[下载Clickhouse-client](https://repo.yandex.ru/clickhouse/rpm/stable/x86_64/)。
+- 在集群所在地域（同一网段）下建立一台云主机，在云主机上安装Clickhouse-client，官方旧版下载地址：[下载Clickhouse-client](https://repo.yandex.ru/clickhouse/rpm/stable/x86_64/)。官方新版下载地址：[下载Clickhouse-client](https://packages.clickhouse.com/rpm/lts/)。
 
   建议按实际创建的内核版本选择对应版本的Clickhouse-client，如以上创建的集群内核版本为21.8.14.5，则下载如下rpm包：
 

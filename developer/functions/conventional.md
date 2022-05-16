@@ -160,11 +160,11 @@
     </tr>
     </tbody></table>
 
-浮点数类型或日期类型也有上述类似的函数。具体请参考[官方文档](https://clickhouse.tech/docs/en/query_language/functions/type_conversion_functions/)
+浮点数类型或日期类型也有上述类似的函数。具体请参考[官方文档](https://clickhouse.com/docs/en/sql-reference/functions/type-conversion-functions/)
 
 ## 日期函数
 
-具体请参考[官方文档](https://clickhouse.tech/docs/en/query_language/functions/date_time_functions/)。
+具体请参考[官方文档](https://clickhouse.com/docs/en/sql-reference/functions/date-time-functions/)。
 
 ## 字符串函数
 
@@ -172,8 +172,8 @@
 
 ## UUID
 
-具体请参考[官方文档](https://clickhouse.tech/docs/en/query_language/functions/uuid_functions/) 。
+具体请参考[官方文档](https://clickhouse.com/docs/en/sql-reference/functions/uuid-functions/) 。
 
 ## JSON 处理函数
 
-具体请参考[官方文档](https://clickhouse.tech/docs/en/query_language/functions/json_functions/)。
+具体请参考[官方文档](https://clickhouse.com/docs/en/sql-reference/functions/json-functions/)。

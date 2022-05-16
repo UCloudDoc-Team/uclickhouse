@@ -1,6 +1,6 @@
 # 数据类型
 
-ClickHouse完整数据类型请参考[官方数据类型](https://clickhouse.tech/docs/zh/sql_reference/data_types/)。
+ClickHouse完整数据类型请参考[官方数据类型](https://clickhouse.com/docs/zh/sql-reference/data-types/)。
 
 下表仅列出常用的。
 
@@ -125,4 +125,3 @@ ClickHouse完整数据类型请参考[官方数据类型](https://clickhouse.tec
     </td>
   </tr>
 </table>
-

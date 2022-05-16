@@ -15,4 +15,4 @@ ALTER TABLE table_name DETACH PARTITION partition_exprALTER TABLE table_name DRO
 ALTER TABLE table-name MODIFY TTL ttl-expression
 ```
 
-更多信息，请具体参考[官方文档](https://clickhouse.tech/docs/en/query_language/alter/)
+更多信息，请具体参考[官方文档](https://clickhouse.com/docs/en/sql-reference/statements/alter/)

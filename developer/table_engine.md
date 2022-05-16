@@ -184,7 +184,7 @@
     </tbody>
 </table>
 
-关于表引擎的更多详细介绍，请参考官方文档[表引擎介绍](https://clickhouse.yandex/docs/zh/operations/table_engines/?spm=a2c4g.11186623.0.0.7b79500bvC1shW)。
+关于表引擎的更多详细介绍，请参考官方文档[表引擎介绍](https://clickhouse.com/docs/zh/engines/table-engines/)。
 
 ## MergeTree
 
@@ -235,7 +235,7 @@ MergeTree表引擎主要用于海量数据分析，支持数据分区、存储�
 
 2. 写入主键重复的数据
 
-   参照**[快速上手](/uclickhouse/gettingstart) -> 准备数据并导入**
+   参照[快速上手](/uclickhouse/gettingstart) -> 准备数据并导入
 
    准备数据并保存为lineorder.csv文件:
 
@@ -330,7 +330,7 @@ MergeTree表引擎主要用于海量数据分析，支持数据分区、存储�
 
 2. 写入主键重复的数据
 
-   参照**[快速上手](/uclickhouse/gettingstart) -> 准备数据并导入**
+   参照[快速上手](/uclickhouse/gettingstart) -> 准备数据并导入
 
    准备数据并保存为lineorder.csv文件:
 
