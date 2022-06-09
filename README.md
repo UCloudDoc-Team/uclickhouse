@@ -33,7 +33,7 @@
   * [数据类型](/uclickhouse/developer/data_type)
 
   * SQL语法
-    * [创建库（Create Dabase）](/uclickhouse/developer/sql_grammar/create_database)
+    * [创建库（Create Database）](/uclickhouse/developer/sql_grammar/create_database)
     * [创建表（Create Table）](/uclickhouse/developer/sql_grammar/create_table)
     * [创建视图（Create Materialized View）](/uclickhouse/developer/sql_grammar/materialized_view)
     * [插入数据（INSERT INTO）](/uclickhouse/developer/sql_grammar/insert_into)
