@@ -25,9 +25,9 @@ UClickhouse设计为Clickhouse集群+Zookeeper集群，具体特点如下。
 - SQL 支持，支持基于SQL的声明式查询语言，在许多情况下与ANSI SQL标准相同。
 - 自适应 Join 算法。
 
-ClickHouse官网地址，请参见https://clickhouse.com。
+ClickHouse官网地址，请参见https://clickhouse.com
 
-ClickHouse参考文档链接，请参见https://clickhouse.com/docs/。
+ClickHouse参考文档链接，请参见https://clickhouse.com/docs/
 
 ## 增强特性
 
