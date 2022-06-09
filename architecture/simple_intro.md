@@ -27,7 +27,7 @@ UClickhouse设计为Clickhouse集群+Zookeeper集群，具体特点如下。
 
 ClickHouse官网地址，请参见https://clickhouse.com
 
-ClickHouse参考文档链接，请参见https://clickhouse.com/docs/
+ClickHouse参考文档链接，请参见https://clickhouse.com/docs/zh
 
 ## 增强特性
 
