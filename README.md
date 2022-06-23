@@ -55,6 +55,8 @@
 
   * [MaterializeMySQL引擎](/uclickhouse/developer/materializeMySQL)
 
+  * [时区参考](/uclickhouse/developer/zone_list)
+
 * 性能测试指南
   * 性能测试工具
 
