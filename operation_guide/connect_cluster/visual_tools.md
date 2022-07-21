@@ -66,5 +66,5 @@ UClickhouse可以通过第三方客户端工具连接实例，针对有数据可
      | user                | 登陆用户名，默认root                                         |
      | Authentication type | 如果登陆云主机是私钥文件,则Auth type 选择 Key pair（OpenSSH or PuTTY）<br />登陆云主机是密码，则Auth type选择Password |
 
-     ## 
+
 
