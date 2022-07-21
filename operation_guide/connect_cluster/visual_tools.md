@@ -46,25 +46,25 @@ UClickhouse可以通过第三方客户端工具连接实例，针对有数据可
 
      
 
-     字段说明：
+ 字段说明：
 
-     1:General页面参数说明
+ 1:General页面参数说明
 
-     | 参数     | 说明                         |
-     | -------- | ---------------------------- |
-     | host     | clickhouse集群节点的ip地址。 |
-     | port     | 8123                         |
-     | user     | 管理用户名，默认admin        |
-     | password | 您创建集群时设置的管理密码   |
+ | 参数     | 说明                         |
+ | -------- | ---------------------------- |
+ | host     | clickhouse集群节点的ip地址。 |
+ | port     | 8123                         |
+ | user     | 管理用户名，默认admin        |
+ | password | 您创建集群时设置的管理密码   |
 
-     2:SSH/SSL页面参数说明
+ 2:SSH/SSL页面参数说明
 
-     | 参数                | 说明                                                         |
-     | ------------------- | ------------------------------------------------------------ |
-     | host                | UClickhouse集群所在地域（同一网段）下建立的一台云主机IP地址  |
-     | port                | 22                                                           |
-     | user                | 登陆用户名，默认root                                         |
-     | Authentication type | 如果登陆云主机是私钥文件,则Auth type 选择 Key pair（OpenSSH or PuTTY）<br />登陆云主机是密码，则Auth type选择Password |
+ | 参数                | 说明                                                         |
+ | ------------------- | ------------------------------------------------------------ |
+ | host                | UClickhouse集群所在地域（同一网段）下建立的一台云主机IP地址  |
+ | port                | 22                                                           |
+ | user                | 登陆用户名，默认root                                         |
+ | Authentication type | 如果登陆云主机是私钥文件,则Auth type 选择 Key pair（OpenSSH or PuTTY）<br />登陆云主机是密码，则Auth type选择Password |
 
 
 
