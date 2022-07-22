@@ -2,17 +2,23 @@
 
 UClickhouse可以通过第三方客户端工具连接实例，针对有数据可视化操作需求的场景，您可以使用常用的DataGrip工具连接集群，进行数据操作。以下为使用DataGrip工具连接集群的步骤及操作示例。
 
-## DataGrip工具连接
-
 ### DataGrip简介
 
 [DataGrip](https://www.jetbrains.com/datagrip/) 是JetBrains的数据库IDE，专门支持ClickHouse。 此工具支持ClickHouse语法高亮显示；支持ClickHouse特有的功能，例如嵌套列，表引擎；支持数据编辑等功能
 
-前提准备：
+### 通过SSH隧道连接集群数据库介绍
 
-1:在UClickhouse集群所在地域（同一网段）下建立一台云主机。
+![image-20220722170500791](../../images/client-ck-noconnect.png)
 
-2:登录Ucloud账号进入到[用户控制台](https://passport.ucloud.cn/#login)，在全部产品下搜索或者数据仓库下选择“数据仓库 UDW Clickhouse”，进入到[数据仓库 UClickhouse控制台](https://console.ucloud.cn/udw/clickhouse)。在**集群列表**页面，点击**详情**可查看集群节点列表，列表中已列出节点地址，节点信息连接时要用。
+![image-20220722170548124](../../images/client-ck-connect.png)
+
+说明：
+
+1:需要在UClickhouse集群所在地域（同一网段）下建立一台云主机。
+
+2:UClickhouse节点IP查看：登录Ucloud账号进入到[用户控制台](https://passport.ucloud.cn/#login)，在全部产品下搜索或者数据仓库下选择“数据仓库 UDW Clickhouse”，进入到[数据仓库 UClickhouse控制台](https://console.ucloud.cn/udw/clickhouse)。在**集群列表**页面，点击**详情**可查看集群节点列表，列表中已列出节点地址。
+
+3:SSH 隧道能够提供两大功能:（1）加密 SSH Client 端至 SSH Server 端之间的通讯数据（2）突破防火墙的限制完成一些之前无法建立的 TCP 连接加密 SSH Client 端至 SSH Server 端之间的通讯数据
 
 ### 操作步骤
 
@@ -46,25 +52,27 @@ UClickhouse可以通过第三方客户端工具连接实例，针对有数据可
 
      
 
-     字段说明：
+字段说明：
 
-     1:General页面参数说明
+1:General页面参数说明
 
-     | 参数     | 说明                         |
-     | -------- | ---------------------------- |
-     | host     | clickhouse集群节点的ip地址。 |
-     | port     | 8123                         |
-     | user     | 管理用户名，默认admin        |
-     | password | 您创建集群时设置的管理密码   |
+| 参数     | 说明                         |
+| -------- | ---------------------------- |
+| host     | clickhouse集群节点的ip地址。 |
+| port     | 8123                         |
+| user     | 管理用户名，默认admin        |
+| password | 您创建集群时设置的管理密码   |
 
-     2:SSH/SSL页面参数说明
+2:SSH/SSL页面参数说明
 
-     | 参数                | 说明                                                         |
-     | ------------------- | ------------------------------------------------------------ |
-     | host                | UClickhouse集群所在地域（同一网段）下建立的一台云主机IP地址  |
-     | port                | 22                                                           |
-     | user                | 登陆用户名，默认root                                         |
-     | Authentication type | 如果登陆云主机是私钥文件,则Auth type 选择 Key pair（OpenSSH or PuTTY）<br />登陆云主机是密码，则Auth type选择Password |
+| 参数                | 说明                                                         |
+| ------------------- | ------------------------------------------------------------ |
+| host                | UClickhouse集群所在地域（同一网段）下建立的一台云主机IP地址  |
+| port                | 22                                                           |
+| user                | 登陆用户名，默认root                                         |
+| Authentication type | 如果登陆云主机是私钥文件,则Auth type 选择 Key pair（OpenSSH or PuTTY）<br />登陆云主机是密码，则Auth type选择Password |
 
-     ## 
+
+
+
 
