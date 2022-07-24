@@ -8,7 +8,7 @@ UClickhouse可以通过第三方客户端工具连接实例，针对有数据可
 
 ### 通过SSH隧道连接集群数据库介绍
 
-![image-20220724162506709](../../../udoris/images/client-ck-noconnect-8651126.png)
+![image-20220724164647143](../../../udoris/images/client-ck-noconnect-8652429.png)
 
 ![image-20220724155605707](../../../udoris/images/client-ck-connect.png)
 
@@ -16,7 +16,7 @@ UClickhouse可以通过第三方客户端工具连接实例，针对有数据可
 
 1:需要有一台能够直接通过SSH连接的Linux主机，并且该主机和UClickhouse实例的网络可以相互联通。
 
-2:UClickhouse节点IP查看：登录UCloud账号进入到[数据仓库 UClickhouse控制台](https://console.ucloud.cn/udw/clickhouse) 查看集群列表。
+2:UClickhouse节点IP查看：登录UCloud控制台，查看[数据仓库 UClickhouse列表](https://console.ucloud.cn/udw/clickhouse) ，点击详情查看目标实例的节点信息。
 
 ### 操作步骤
 
@@ -30,9 +30,9 @@ UClickhouse可以通过第三方客户端工具连接实例，针对有数据可
 
      ![image-20220721161619143](../../images/driver-download.png)
 
-  4. 出于安全考虑，远程主机上的9000端口并没有对外开放，因此DataGrip需要进行ssh通道连接ClickHouse数据库。DataGrip通过ssh连接远程ClickHouse的方式如下图
+  4. 出于安全考虑，ClickHouse不支持公网直接连接，因此DataGrip需要通过ssh通道连接ClickHouse。DataGrip通过ssh连接远程ClickHouse的方式如下图
 
-     (1) 先切到"SSH/SSL"页面，使用ssh连接上**同一地域下的云主机**，如果登陆云主机是私钥文件，则Auth type 选择 Key pair（OpenSSH or PuTTY）。
+     (1) 先切到"SSH/SSL"页面，使用ssh连接上准备好的Linux主机，如果登陆云主机是私钥文件，则Auth type 选择 Key pair（OpenSSH or PuTTY）。
 
      ![image-20220724145958123](../../../../doris-doc/udoris/images/ssh-connect-1.png)
 
@@ -65,7 +65,7 @@ UClickhouse可以通过第三方客户端工具连接实例，针对有数据可
 
 | 参数                | 说明                                                         |
 | ------------------- | ------------------------------------------------------------ |
-| host                | UClickhouse集群所在地域（同一网段）下建立的一台云主机IP地址  |
+| host                | 和UClickhouse实例的网络可以相互联通的Linux主机               |
 | port                | 22                                                           |
 | user                | 登陆用户名，默认root                                         |
 | Authentication type | 如果登陆云主机是私钥文件,则Auth type 选择 Key pair（OpenSSH or PuTTY）<br />登陆云主机是密码，则Auth type选择Password |
