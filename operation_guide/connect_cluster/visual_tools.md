@@ -4,11 +4,11 @@ UClickhouse可以通过第三方客户端工具连接实例，针对有数据可
 
 ### DataGrip简介
 
-[DataGrip](https://www.jetbrains.com/datagrip/) 是JetBrains的数据库IDE，专门支持ClickHouse。 此工具支持ClickHouse语法高亮显示；支持ClickHouse特有的功能，例如嵌套列，表引擎；支持数据编辑等功能
+[DataGrip](https://www.jetbrains.com/datagrip/) 是JetBrains的数据库IDE，专门支持ClickHouse。 此工具支持ClickHouse语法高亮显示；支持ClickHouse特有的功能，例如嵌套列，表引擎；支持数据编辑等功能。
 
 ### 通过SSH隧道连接集群数据库介绍
 
-![image-20220724155359906](../../../udoris/images/client-ck-noconnect.png)
+![image-20220724162506709](../../../udoris/images/client-ck-noconnect-8651126.png)
 
 ![image-20220724155605707](../../../udoris/images/client-ck-connect.png)
 
