@@ -36,15 +36,15 @@ UClickhouse可以通过第三方客户端工具连接实例，针对有数据可
 
      (1) 先切到"SSH/SSL"页面，使用ssh连接上**同一地域下的云主机**，如果登陆云主机是私钥文件，则Auth type 选择 Key pair（OpenSSH or PuTTY）。
 
-     ![image-20220721162415138](../../images/ssh-connect-1.png)
+     ![image-20220724145958123](../../../../doris-doc/udoris/images/ssh-connect-1.png)
 
-     ![image-20220721162757560](../../images/ssh-connect-2.png)
+     ![image-20220724150626192](../../../../doris-doc/udoris/images/ssh-connect-2.png)
 
      （2）切回"General"页面，在该页面输入集群节点相应的信息。（点击Test Connection 即可）如下图
 
      节点信息获取：登录Ucloud账号进入到[用户控制台](https://passport.ucloud.cn/#login)，在全部产品下搜索或者数据仓库下选择“数据仓库 UDW Clickhouse”，进入       到[数据仓库 UClickhouse控制台](https://console.ucloud.cn/udw/clickhouse)。在**集群列表**页面，点击**详情**可查看集群节点列表，列表中已列出节点地址
 
-     ![image-20220721163423885](../../images/ssh-connect-3.png)
+     ![image-20220724150954297](../../../../doris-doc/udoris/images/ssh-connect-3.png)
 
   5. 连接完成，此时在连接列表中就可以使用该数据库进行您需要的操作了。
 
