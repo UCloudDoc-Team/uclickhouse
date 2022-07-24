@@ -30,7 +30,7 @@ UClickhouse可以通过第三方客户端工具连接实例，针对有数据可
 
      ![image-20220721161619143](../../images/driver-download.png)
 
-  4. 出于安全考虑，ClickHouse不支持公网直接连接，因此DataGrip需要通过ssh通道连接ClickHouse。DataGrip通过ssh连接远程ClickHouse的方式如下图
+  4. 出于安全考虑，UClickHouse实例不支持公网直接连接，因此DataGrip需要通过SSH通道连接UClickHouse实例的节点。DataGrip通过SSH连接UClickHouse节点的方式如下图
 
      (1) 先切到"SSH/SSL"页面，使用ssh连接上准备好的Linux主机，如果登陆云主机是私钥文件，则Auth type 选择 Key pair（OpenSSH or PuTTY）。
 
@@ -65,7 +65,7 @@ UClickhouse可以通过第三方客户端工具连接实例，针对有数据可
 
 | 参数                | 说明                                                         |
 | ------------------- | ------------------------------------------------------------ |
-| host                | 和UClickhouse实例的网络可以相互联通的Linux主机               |
+| host                | 能够直接通过SSH连接的Linux主机，并且该主机和UClickhouse实例的网络可以相互联通 |
 | port                | 22                                                           |
 | user                | 登陆用户名，默认root                                         |
 | Authentication type | 如果登陆云主机是私钥文件,则Auth type 选择 Key pair（OpenSSH or PuTTY）<br />登陆云主机是密码，则Auth type选择Password |
