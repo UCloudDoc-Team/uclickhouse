@@ -4,17 +4,19 @@ UClickhouse可以通过第三方客户端工具连接实例，针对有数据可
 
 ### DataGrip简介
 
-[DataGrip](https://www.jetbrains.com/datagrip/) 是JetBrains的数据库IDE，兼容支持连接Clickhouse。 此工具支持ClickHouse语法高亮显示；支持ClickHouse特有的功能，例如嵌套列，表引擎；支持数据编辑等功能。
+[DataGrip](https://www.jetbrains.com/datagrip/) 是JetBrains的数据库IDE，专门支持ClickHouse。 此工具支持ClickHouse语法高亮显示；支持ClickHouse特有的功能，例如嵌套列，表引擎；支持数据编辑等功能
 
 ### 通过SSH隧道连接集群数据库介绍
 
-![image-20220725213304074](../../../udoris/images/client-ck-connect.png)
+![client-ck-connect](../../../../ck-doc/uclickhouse/images/client-ck-connect.png)
 
 说明：
 
-1:需要有一台能够直接通过SSH连接的Linux主机，并且该主机和UClickhouse实例的网络可以相互联通。
+1:需要在UClickhouse集群所在地域（同一网段）下建立一台云主机。
 
-2:UClickhouse节点IP查看：登录UCloud控制台，查看[数据仓库 UClickhouse列表](https://console.ucloud.cn/udw/clickhouse) ，点击详情查看目标实例的节点信息。
+2:UClickhouse节点IP查看：登录UCloud账号进入到[用户控制台](https://passport.ucloud.cn/#login)，在全部产品下搜索或者数据仓库下选择“数据仓库 UDW Clickhouse”，进入到[数据仓库 UClickhouse控制台](https://console.ucloud.cn/udw/clickhouse)。在**集群列表**页面，点击**详情**可查看集群节点列表，列表中已列出节点地址。
+
+3:SSH 隧道能够提供两大功能:（1）加密 SSH Client 端至 SSH Server 端之间的通讯数据（2）突破防火墙的限制完成一些之前无法建立的 TCP 连接加密 SSH Client 端至 SSH Server 端之间的通讯数据
 
 ### 操作步骤
 
@@ -28,9 +30,9 @@ UClickhouse可以通过第三方客户端工具连接实例，针对有数据可
 
      ![image-20220721161619143](../../images/driver-download.png)
 
-  4. 出于安全考虑，UClickHouse实例不支持公网直接连接，因此DataGrip需要通过SSH通道连接UClickHouse实例的节点。DataGrip通过SSH连接UClickHouse节点的方式如下图
+  4. 出于安全考虑，远程主机上的9000端口并没有对外开放，因此DataGrip需要进行ssh通道连接ClickHouse数据库。DataGrip通过ssh连接远程ClickHouse的方式如下图
 
-     (1) 先切到"SSH/SSL"页面，使用ssh连接上准备好的Linux主机，如果登陆云主机是私钥文件，则Auth type 选择 Key pair（OpenSSH or PuTTY）。
+     (1) 先切到"SSH/SSL"页面，使用ssh连接上**同一地域下的云主机**，如果登陆云主机是私钥文件，则Auth type 选择 Key pair（OpenSSH or PuTTY）。
 
      ![image-20220724145958123](../../../../doris-doc/udoris/images/ssh-connect-1.png)
 
@@ -38,7 +40,7 @@ UClickhouse可以通过第三方客户端工具连接实例，针对有数据可
 
      （2）切回"General"页面，在该页面输入集群节点相应的信息。（点击Test Connection 即可）如下图
 
-     节点信息获取：登录UCloud账号进入到[数据仓库 UClickhouse控制台](https://console.ucloud.cn/udw/clickhouse) 查看集群列表。
+     节点信息获取：登录UCloud账号进入到[用户控制台](https://passport.ucloud.cn/#login)，在全部产品下搜索或者数据仓库下选择“数据仓库 UDW Clickhouse”，进入       到[数据仓库 UClickhouse控制台](https://console.ucloud.cn/udw/clickhouse)。在**集群列表**页面，点击**详情**可查看集群节点列表，列表中已列出节点地址
 
      ![image-20220724150954297](../../../../doris-doc/udoris/images/ssh-connect-3.png)
 
@@ -63,7 +65,7 @@ UClickhouse可以通过第三方客户端工具连接实例，针对有数据可
 
 | 参数                | 说明                                                         |
 | ------------------- | ------------------------------------------------------------ |
-| host                | 能够直接通过SSH连接的Linux主机，并且该主机和UClickhouse实例的网络可以相互联通 |
+| host                | UClickhouse集群所在地域（同一网段）下建立的一台云主机IP地址  |
 | port                | 22                                                           |
 | user                | 登陆用户名，默认root                                         |
 | Authentication type | 如果登陆云主机是私钥文件,则Auth type 选择 Key pair（OpenSSH or PuTTY）<br />登陆云主机是密码，则Auth type选择Password |
