@@ -54,7 +54,7 @@ UClickhouse可以通过第三方客户端工具连接实例，针对有数据可
 
 | 参数     | 说明                        |
 | -------- | --------------------------- |
-| host     | UClickhouse集群节点的ip地址 |
+| host     | UClickhouse集群节点的IP地址 |
 | port     | 8123                        |
 | user     | 管理用户名，默认admin       |
 | password | 您创建集群时设置的管理密码  |
