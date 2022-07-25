@@ -8,9 +8,7 @@ UClickhouse可以通过第三方客户端工具连接实例，针对有数据可
 
 ### 通过SSH隧道连接集群数据库介绍
 
-![image-20220724165202505](../../../udoris/images/client-ck-noconnect.png)
-
-![image-20220724155605707](../../../udoris/images/client-ck-connect.png)
+![image-20220725213304074](../../../udoris/images/client-ck-connect.png)
 
 说明：
 
