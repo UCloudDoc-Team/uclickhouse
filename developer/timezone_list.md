@@ -3119,18 +3119,6 @@
     </tr>
     <tr>
         <td><strong>UTC+2</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/europe--kaliningrad">Europe/Kaliningrad</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/554234"><i class="fa fa-map-marker pr-5 pl-5"></i>Kaliningrad</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/568595"><i class="fa fa-map-marker pr-5 pl-5"></i>Chernyakhovsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/490068"><i class="fa fa-map-marker pr-5 pl-5"></i>Sovetsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2609906"><i class="fa fa-map-marker pr-5 pl-5"></i>Baltiysk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/557882"><i
-                    class="fa fa-map-marker pr-5 pl-5"></i>Gusev</a></td>
-    </tr>
-    <tr>
-        <td><strong>UTC+2</strong></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/europe--kiev">Europe/Kiev</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ua"><span class="flag-icon flag-icon-ua mr-10"></span>Ukraine</a>
         </td>
@@ -3427,20 +3415,6 @@
     </tr>
     <tr>
         <td><strong>UTC+3</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/europe--kirov">Europe/Kirov</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/548408"><i
-                class="fa fa-map-marker pr-5 pl-5"></i>Kirov</a>, <a
-                href="https://www.zeitverschiebung.net/cn/city/548395"><i class="fa fa-map-marker pr-5 pl-5"></i>Kirovo-Chepetsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/470734"><i class="fa fa-map-marker pr-5 pl-5"></i>Vyatskiye
-                Polyany</a>, <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/491882"><i
-                    class="fa fa-map-marker pr-5 pl-5"></i>Slobodskoy</a>, <a
-                    href="https://www.zeitverschiebung.net/cn/city/543737"><i class="fa fa-map-marker pr-5 pl-5"></i>Kotel’nich</a>
-        </td>
-    </tr>
-    <tr>
-        <td><strong>UTC+3</strong></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/europe--minsk">Europe/Minsk</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/by"><span class="flag-icon flag-icon-by mr-10"></span>Belarus</a>
         </td>
@@ -3451,32 +3425,6 @@
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/620127"><i class="fa fa-map-marker pr-5 pl-5"></i>Vitebsk</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/627904"><i
                     class="fa fa-map-marker pr-5 pl-5"></i>Hrodna</a></td>
-    </tr>
-    <tr>
-        <td><strong>UTC+3</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/europe--simferopol">Europe/Simferopol</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/693805"><i class="fa fa-map-marker pr-5 pl-5"></i>Simferopol</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/706524"><i
-                    class="fa fa-map-marker pr-5 pl-5"></i>Kerch</a>, <a
-                    href="https://www.zeitverschiebung.net/cn/city/688105"><i class="fa fa-map-marker pr-5 pl-5"></i>Yevpatoriya</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/688533"><i
-                    class="fa fa-map-marker pr-5 pl-5"></i>Yalta</a>, <a
-                    href="https://www.zeitverschiebung.net/cn/city/709161"><i class="fa fa-map-marker pr-5 pl-5"></i>Feodosiya</a>
-        </td>
-    </tr>
-    <tr>
-        <td><strong>UTC+3</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/europe--volgograd">Europe/Volgograd</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/472757"><i class="fa fa-map-marker pr-5 pl-5"></i>Volgograd</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/472231"><i class="fa fa-map-marker pr-5 pl-5"></i>Volzhskiy</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/553287"><i class="fa fa-map-marker pr-5 pl-5"></i>Kamyshin</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/527012"><i class="fa fa-map-marker pr-5 pl-5"></i>Mikhaylovka</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/478544"><i class="fa fa-map-marker pr-5 pl-5"></i>Uryupinsk</a>
-        </td>
     </tr>
     <tr>
         <td><strong>UTC+3</strong></td>
@@ -3595,56 +3543,6 @@
                     href="https://www.zeitverschiebung.net/cn/city/616530"><i class="fa fa-map-marker pr-5 pl-5"></i>Vanadzor</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/616062"><i class="fa fa-map-marker pr-5 pl-5"></i>Vagharshapat</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/616629"><i class="fa fa-map-marker pr-5 pl-5"></i>Hrazdan</a>
-        </td>
-    </tr>
-    <tr>
-        <td><strong>UTC+4</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/europe--astrakhan">Europe/Astrakhan</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/580497"><i class="fa fa-map-marker pr-5 pl-5"></i>Astrakhan</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/583798"><i class="fa fa-map-marker pr-5 pl-5"></i>Akhtubinsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/831130"><i class="fa fa-map-marker pr-5 pl-5"></i>Znamensk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/550671"><i class="fa fa-map-marker pr-5 pl-5"></i>Kharabali</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/553248"><i class="fa fa-map-marker pr-5 pl-5"></i>Kamyzyak</a>
-        </td>
-    </tr>
-    <tr>
-        <td><strong>UTC+4</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/europe--samara">Europe/Samara</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/499099"><i
-                class="fa fa-map-marker pr-5 pl-5"></i>Samara</a>, <a
-                href="https://www.zeitverschiebung.net/cn/city/482283"><i class="fa fa-map-marker pr-5 pl-5"></i>Togliatti-on-the-Volga</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/554840"><i class="fa fa-map-marker pr-5 pl-5"></i>Izhevsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/484972"><i class="fa fa-map-marker pr-5 pl-5"></i>Syzran’</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/518659"><i class="fa fa-map-marker pr-5 pl-5"></i>Novokuybyshevsk</a>
-        </td>
-    </tr>
-    <tr>
-        <td><strong>UTC+4</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/europe--saratov">Europe/Saratov</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/498677"><i class="fa fa-map-marker pr-5 pl-5"></i>Saratov</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/579492"><i class="fa fa-map-marker pr-5 pl-5"></i>Balakovo</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/563464"><i class="fa fa-map-marker pr-5 pl-5"></i>Engel’s</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/579460"><i class="fa fa-map-marker pr-5 pl-5"></i>Balashov</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/472278"><i
-                    class="fa fa-map-marker pr-5 pl-5"></i>Vol’sk</a></td>
-    </tr>
-    <tr>
-        <td><strong>UTC+4</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/europe--ulyanovsk">Europe/Ulyanovsk</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/479123"><i class="fa fa-map-marker pr-5 pl-5"></i>Ulyanovsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/566199"><i class="fa fa-map-marker pr-5 pl-5"></i>Dimitrovgrad</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/556283"><i class="fa fa-map-marker pr-5 pl-5"></i>Inza</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/578931"><i
-                    class="fa fa-map-marker pr-5 pl-5"></i>Barysh</a>, <a
-                    href="https://www.zeitverschiebung.net/cn/city/517766"><i class="fa fa-map-marker pr-5 pl-5"></i>Novoul’yanovsk</a>
         </td>
     </tr>
     <tr>
@@ -3836,18 +3734,6 @@
     </tr>
     <tr>
         <td><strong>UTC+5</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--yekaterinburg">Asia/Yekaterinburg</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1486209"><i class="fa fa-map-marker pr-5 pl-5"></i>Yekaterinburg</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1508291"><i class="fa fa-map-marker pr-5 pl-5"></i>Chelyabinsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/479561"><i class="fa fa-map-marker pr-5 pl-5"></i>Ufa</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/511196"><i class="fa fa-map-marker pr-5 pl-5"></i>Perm</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/515003"><i class="fa fa-map-marker pr-5 pl-5"></i>Orenburg</a>
-        </td>
-    </tr>
-    <tr>
-        <td><strong>UTC+5</strong></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/indian--kerguelen">Indian/Kerguelen</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/tf"><span class="flag-icon flag-icon-tf mr-10"></span>French
             Southern Territories</a></td>
@@ -3953,20 +3839,6 @@
     </tr>
     <tr>
         <td><strong>UTC+6</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--omsk">Asia/Omsk</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1496153"><i
-                class="fa fa-map-marker pr-5 pl-5"></i>Omsk</a>, <a
-                href="https://www.zeitverschiebung.net/cn/city/1490140"><i
-                class="fa fa-map-marker pr-5 pl-5"></i>Tara</a>, <a
-                href="https://www.zeitverschiebung.net/cn/city/1505074"><i class="fa fa-map-marker pr-5 pl-5"></i>Kalachinsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1485020"><i class="fa fa-map-marker pr-5 pl-5"></i>Znamenskoye</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1489938"><i class="fa fa-map-marker pr-5 pl-5"></i>Tavricheskoye</a>
-        </td>
-    </tr>
-    <tr>
-        <td><strong>UTC+6</strong></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--qostanay">Asia/Qostanay</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/kz"><span class="flag-icon flag-icon-kz mr-10"></span>Kazakhstan</a>
         </td>
@@ -4051,19 +3923,6 @@
     </tr>
     <tr>
         <td><strong>UTC+7</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--barnaul">Asia/Barnaul</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1510853"><i class="fa fa-map-marker pr-5 pl-5"></i>Barnaul</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1510018"><i
-                    class="fa fa-map-marker pr-5 pl-5"></i>Biysk</a>, <a
-                    href="https://www.zeitverschiebung.net/cn/city/1493467"><i class="fa fa-map-marker pr-5 pl-5"></i>Rubtsovsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1497173"><i class="fa fa-map-marker pr-5 pl-5"></i>Novoaltaysk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1506271"><i class="fa fa-map-marker pr-5 pl-5"></i>Gorno-Altaysk</a>
-        </td>
-    </tr>
-    <tr>
-        <td><strong>UTC+7</strong></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--hovd">Asia/Hovd</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/mn"><span class="flag-icon flag-icon-mn mr-10"></span>Mongolia</a>
         </td>
@@ -4104,42 +3963,6 @@
     </tr>
     <tr>
         <td><strong>UTC+7</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--krasnoyarsk">Asia/Krasnoyarsk</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1502026"><i class="fa fa-map-marker pr-5 pl-5"></i>Krasnoyarsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1512236"><i class="fa fa-map-marker pr-5 pl-5"></i>Abakan</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1497337"><i class="fa fa-map-marker pr-5 pl-5"></i>Norilsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1512165"><i class="fa fa-map-marker pr-5 pl-5"></i>Achinsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1500973"><i
-                    class="fa fa-map-marker pr-5 pl-5"></i>Kyzyl</a></td>
-    </tr>
-    <tr>
-        <td><strong>UTC+7</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--novokuznetsk">Asia/Novokuznetsk</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1496990"><i class="fa fa-map-marker pr-5 pl-5"></i>Novokuznetsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1503901"><i class="fa fa-map-marker pr-5 pl-5"></i>Kemerovo</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1494114"><i class="fa fa-map-marker pr-5 pl-5"></i>Prokop’yevsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1500665"><i class="fa fa-map-marker pr-5 pl-5"></i>Leninsk-Kuznetsky</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1503277"><i class="fa fa-map-marker pr-5 pl-5"></i>Kiselëvsk</a>
-        </td>
-    </tr>
-    <tr>
-        <td><strong>UTC+7</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--novosibirsk">Asia/Novosibirsk</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1496747"><i class="fa fa-map-marker pr-5 pl-5"></i>Novosibirsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1510350"><i class="fa fa-map-marker pr-5 pl-5"></i>Berdsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1505429"><i class="fa fa-map-marker pr-5 pl-5"></i>Iskitim</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1512086"><i class="fa fa-map-marker pr-5 pl-5"></i>Akademgorodok</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1501141"><i class="fa fa-map-marker pr-5 pl-5"></i>Kuybyshev</a>
-        </td>
-    </tr>
-    <tr>
-        <td><strong>UTC+7</strong></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--phnom_penh">Asia/Phnom_Penh</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/kh"><span class="flag-icon flag-icon-kh mr-10"></span>Cambodia</a>
         </td>
@@ -4163,19 +3986,6 @@
                     href="https://www.zeitverschiebung.net/cn/city/1626916"><i class="fa fa-map-marker pr-5 pl-5"></i>Singkawang</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1628884"><i class="fa fa-map-marker pr-5 pl-5"></i>Sampit</a>
         </td>
-    </tr>
-    <tr>
-        <td><strong>UTC+7</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--tomsk">Asia/Tomsk</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1489425"><i
-                class="fa fa-map-marker pr-5 pl-5"></i>Tomsk</a>, <a
-                href="https://www.zeitverschiebung.net/cn/city/1538637"><i class="fa fa-map-marker pr-5 pl-5"></i>Seversk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1490796"><i class="fa fa-map-marker pr-5 pl-5"></i>Strezhevoy</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1502862"><i class="fa fa-map-marker pr-5 pl-5"></i>Kolpashevo</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1511309"><i
-                    class="fa fa-map-marker pr-5 pl-5"></i>Asino</a></td>
     </tr>
     <tr>
         <td><strong>UTC+7</strong></td>
@@ -4233,18 +4043,6 @@
                 class="fa fa-map-marker pr-5 pl-5"></i>Yuen Long Kau Hui</a>, <a
                 href="https://www.zeitverschiebung.net/cn/city/11101593"><i class="fa fa-map-marker pr-5 pl-5"></i>Tung
             Chung</a></td>
-    </tr>
-    <tr>
-        <td><strong>UTC+8</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--irkutsk">Asia/Irkutsk</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2023469"><i class="fa fa-map-marker pr-5 pl-5"></i>Irkutsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2014407"><i class="fa fa-map-marker pr-5 pl-5"></i>Ulan-Ude</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2051523"><i class="fa fa-map-marker pr-5 pl-5"></i>Bratsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2027667"><i class="fa fa-map-marker pr-5 pl-5"></i>Angarsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2013952"><i class="fa fa-map-marker pr-5 pl-5"></i>Ust’-Ilimsk</a>
-        </td>
     </tr>
     <tr>
         <td><strong>UTC+8</strong></td>
@@ -4376,19 +4174,6 @@
     </tr>
     <tr>
         <td><strong>UTC+9</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--chita">Asia/Chita</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2025339"><i
-                class="fa fa-map-marker pr-5 pl-5"></i>Chita</a>, <a
-                href="https://www.zeitverschiebung.net/cn/city/2021618"><i class="fa fa-map-marker pr-5 pl-5"></i>Krasnokamensk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2026126"><i class="fa fa-map-marker pr-5 pl-5"></i>Borzya</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2017945"><i class="fa fa-map-marker pr-5 pl-5"></i>Petrovsk-Zabaykal’skiy</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2028078"><i class="fa fa-map-marker pr-5 pl-5"></i>Aginskoye</a>
-        </td>
-    </tr>
-    <tr>
-        <td><strong>UTC+9</strong></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--dili">Asia/Dili</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/tl"><span class="flag-icon flag-icon-tl mr-10"></span>Timor
             Leste</a></td>
@@ -4413,13 +4198,6 @@
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1624041"><i class="fa fa-map-marker pr-5 pl-5"></i>Ternate</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2082727"><i class="fa fa-map-marker pr-5 pl-5"></i>Abepura</a>
         </td>
-    </tr>
-    <tr>
-        <td><strong>UTC+9</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--khandyga">Asia/Khandyga</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td></td>
     </tr>
     <tr>
         <td><strong>UTC+9</strong></td>
@@ -4459,18 +4237,6 @@
                     class="fa fa-map-marker pr-5 pl-5"></i>Osaka</a>, <a
                     href="https://www.zeitverschiebung.net/cn/city/1856057"><i class="fa fa-map-marker pr-5 pl-5"></i>Nagoya</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2128295"><i class="fa fa-map-marker pr-5 pl-5"></i>Sapporo</a>
-        </td>
-    </tr>
-    <tr>
-        <td><strong>UTC+9</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--yakutsk">Asia/Yakutsk</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2013159"><i class="fa fa-map-marker pr-5 pl-5"></i>Yakutsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2026609"><i class="fa fa-map-marker pr-5 pl-5"></i>Blagoveshchensk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2026895"><i class="fa fa-map-marker pr-5 pl-5"></i>Belogorsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2019309"><i class="fa fa-map-marker pr-5 pl-5"></i>Neryungri</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2015833"><i class="fa fa-map-marker pr-5 pl-5"></i>Svobodnyy</a>
         </td>
     </tr>
     <tr>
@@ -4535,26 +4301,6 @@
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/au"><span class="flag-icon flag-icon-au mr-10"></span>Australia</a>
         </td>
         <td></td>
-    </tr>
-    <tr>
-        <td><strong>UTC+10</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--ust-nera">Asia/Ust-Nera</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><strong>UTC+10</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--vladivostok">Asia/Vladivostok</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2013348"><i class="fa fa-map-marker pr-5 pl-5"></i>Vladivostok</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2022890"><i class="fa fa-map-marker pr-5 pl-5"></i>Khabarovsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2056752"><i class="fa fa-map-marker pr-5 pl-5"></i>Khabarovsk
-                Vtoroy</a>, <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2021851"><i
-                    class="fa fa-map-marker pr-5 pl-5"></i>Komsomolsk-on-Amur</a>, <a
-                    href="https://www.zeitverschiebung.net/cn/city/2014006"><i class="fa fa-map-marker pr-5 pl-5"></i>Ussuriysk</a>
-        </td>
     </tr>
     <tr>
         <td><strong>UTC+10</strong></td>
@@ -4681,37 +4427,6 @@
     </tr>
     <tr>
         <td><strong>UTC+11</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--magadan">Asia/Magadan</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2123628"><i class="fa fa-map-marker pr-5 pl-5"></i>Magadan</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2120048"><i class="fa fa-map-marker pr-5 pl-5"></i>Ust-Nera</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2120864"><i class="fa fa-map-marker pr-5 pl-5"></i>Susuman</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2122574"><i class="fa fa-map-marker pr-5 pl-5"></i>Ola</a>
-        </td>
-    </tr>
-    <tr>
-        <td><strong>UTC+11</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--sakhalin">Asia/Sakhalin</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2119441"><i class="fa fa-map-marker pr-5 pl-5"></i>Yuzhno-Sakhalinsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2124286"><i class="fa fa-map-marker pr-5 pl-5"></i>Korsakov</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2124615"><i class="fa fa-map-marker pr-5 pl-5"></i>Kholmsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2122614"><i
-                    class="fa fa-map-marker pr-5 pl-5"></i>Okha</a>, <a
-                    href="https://www.zeitverschiebung.net/cn/city/2122894"><i class="fa fa-map-marker pr-5 pl-5"></i>Nevel’sk</a>
-        </td>
-    </tr>
-    <tr>
-        <td><strong>UTC+11</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--srednekolymsk">Asia/Srednekolymsk</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td></td>
-    </tr>
-    <tr>
-        <td><strong>UTC+11</strong></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/pacific--bougainville">Pacific/Bougainville</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/pg"><span class="flag-icon flag-icon-pg mr-10"></span>Papua
             New Guinea</a></td>
@@ -4791,27 +4506,6 @@
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/aq"><span class="flag-icon flag-icon-aq mr-10"></span>Antarctica</a>
         </td>
         <td></td>
-    </tr>
-    <tr>
-        <td><strong>UTC+12</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--anadyr">Asia/Anadyr</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2127202"><i class="fa fa-map-marker pr-5 pl-5"></i>Anadyr</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2126682"><i class="fa fa-map-marker pr-5 pl-5"></i>Bilibino</a>
-        </td>
-    </tr>
-    <tr>
-        <td><strong>UTC+12</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--kamchatka">Asia/Kamchatka</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2122104"><i class="fa fa-map-marker pr-5 pl-5"></i>Petropavlovsk-Kamchatsky</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2119538"><i class="fa fa-map-marker pr-5 pl-5"></i>Yelizovo</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2118647"><i class="fa fa-map-marker pr-5 pl-5"></i>Vilyuchinsk</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2124440"><i class="fa fa-map-marker pr-5 pl-5"></i>Klyuchi</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2123278"><i class="fa fa-map-marker pr-5 pl-5"></i>Mil’kovo</a>
-        </td>
     </tr>
     <tr>
         <td><strong>UTC+12</strong></td>
