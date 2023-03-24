@@ -3454,21 +3454,6 @@
     </tr>
     <tr>
         <td><strong>UTC+3</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/europe--moscow">Europe/Moscow</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
-        </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/524901"><i
-                class="fa fa-map-marker pr-5 pl-5"></i>Moscow</a>, <a
-                href="https://www.zeitverschiebung.net/cn/city/498817"><i class="fa fa-map-marker pr-5 pl-5"></i>Saint
-            Petersburg</a>, <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/520555"><i
-                class="fa fa-map-marker pr-5 pl-5"></i>Nizhniy Novgorod</a>, <a
-                href="https://www.zeitverschiebung.net/cn/city/551487"><i
-                class="fa fa-map-marker pr-5 pl-5"></i>Kazan</a>, <a
-                href="https://www.zeitverschiebung.net/cn/city/501175"><i class="fa fa-map-marker pr-5 pl-5"></i>Rostov-na-Donu</a>
-        </td>
-    </tr>
-    <tr>
-        <td><strong>UTC+3</strong></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/europe--simferopol">Europe/Simferopol</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ru"><span class="flag-icon flag-icon-ru mr-10"></span>Russia</a>
         </td>
