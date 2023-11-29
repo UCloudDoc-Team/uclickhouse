@@ -8,23 +8,11 @@
 
 当集群创建并运行后，您可进入[数据仓库 UClickhouse控制台](https://console.ucloud.cn/udw/clickhouse)，在集群列表，点击**详情**按钮，即可打开集群详情抽屉页。
 
--  集群概览：可以查看基本信息、配置信息、付费信息、分片信息、节点信息。
+- 集群概览：可以查看基本信息、配置信息、付费信息、分片信息、节点信息。
 
 - 可以修改集群名称，操作节点等。
 
   ![clickhouse-overview](images/clickhouse-overview.png)
-
-## 查看监控信息
-
-在集群详情抽屉页切换到**监控信息**，可以查看集群各节点的监控指标。
-
-![clickhouse-monitor](images/clickhouse-monitor-1.png)
-
-![clickhouse-monitor](images/clickhouse-monitor-2.png)
-
-![clickhouse-monitor](images/clickhouse-monitor-3.png)
-
-![clickhouse-monitor](images/clickhouse-monitor-4.png)
 
 ## 查看参数配置
 
@@ -36,11 +24,8 @@
 
 在集群详情抽屉页切换到**集群巡检**，可以查看当前集群的库表信息统计等。
 
-
-
 ## 查看操作日志
 
 在集群详情抽屉页切换到**操作日志**，可以查看并追溯您的操作记录。
 
 ![clickhouse-operate-log](images/clickhouse-operate-log.png)
-
