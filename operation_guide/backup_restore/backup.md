@@ -10,7 +10,11 @@ UClickhouse 提供数据备份与恢复功能，您可进入[数据仓库 UClick
 
 ![img](/images/guide/backup_restore/backup_init.png)
 
-绑定 US3 存储空间后，会进入备份列表页面。
+绑定 US3 存储空间后，会进入备份列表页面
+
+> 请确保US3令牌必须具有存储空间的上传、下载、删除、文件列表等权限，且有足够长的有效期
+
+![img](/images/guide/backup_restore/backup_bind_us3.png)
 
 ## 备份列表
 
@@ -32,6 +36,8 @@ UClickhouse 提供数据备份与恢复功能，您可进入[数据仓库 UClick
 
 点击【修改】，展示“修改US3”弹框：
 
+> 请确保US3令牌必须具有存储空间的上传、下载、删除、文件列表等权限，且有足够长的有效期
+
 ![img](/images/guide/backup_restore/backup_us3_update_detail.png)
 
 ## 开启自动备份策略
@@ -45,6 +51,8 @@ UClickhouse 提供数据备份与恢复功能，您可进入[数据仓库 UClick
 ![img](/images/guide/backup_restore/backup_auto_policy_close.png)
 
 开启“自动备份策略”后，展示备份周期、备份时间、保留时长等信息。默认每天都会执行备份，可按需选择。最多可保留两年的备份数据，可按实际情况选择保留时长。
+
+在可执行时间段内，备份失败后会重试，超过可执行时间段后，不会再重试。
 
 > 注意：数据备份时会消耗节点资源，建议备份时间选择在业务低峰期执行。
 
@@ -62,3 +70,4 @@ UClickhouse 提供数据备份与恢复功能，您可进入[数据仓库 UClick
 
 > 1. 数据备份时会消耗节点资源，建议在业务低峰期执行手动备份。
 > 2. 手动备份不会自动过期。
+> 3. 同一时间，手动备份与自动备份只能执行其中之一。
