@@ -14,11 +14,11 @@
   * [重启实例](/uclickhouse/operation_guide/restart_cluster)
   * [重置管理员密码](/uclickhouse/operation_guide/reset_password)
   * [删除集群](/uclickhouse/operation_guide/delete_cluster)
-  * [集群监控]
+  * 集群监控
     * [集群监控](/uclickhouse/operation_guide/monitor/cluster)
     * [节点监控](/uclickhouse/operation_guide/monitor/node)
     * [监控项说明](/uclickhouse/operation_guide/monitor/metrics)
-  * [备份与恢复]
+  * 备份与恢复
     * [备份管理](/uclickhouse/operation_guide/backup_restore/backup)
     * [恢复管理](/uclickhouse/operation_guide/backup_restore/restore)
   * 连接集群
