@@ -12,8 +12,9 @@
   * [管理集群](/uclickhouse/operation_guide/manage_cluster)
   * [配置升降级](/uclickhouse/operation_guide/resize_cluster)
   * [重启实例](/uclickhouse/operation_guide/restart_cluster)
-  * [重置管理员密码](/uclickhouse/operation_guide/reset_password)
+  * [重置密码](/uclickhouse/operation_guide/reset_password)
   * [删除集群](/uclickhouse/operation_guide/delete_cluster)
+  * [用户管理](/uclickhouse/operation_guide/user_manage)
   * 集群监控
     * [集群监控](/uclickhouse/operation_guide/monitor/cluster)
     * [节点监控](/uclickhouse/operation_guide/monitor/node)
