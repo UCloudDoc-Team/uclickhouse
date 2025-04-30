@@ -8,15 +8,15 @@ UClickhouse 可以通过网络型负载均衡 NLB 实现集群节点代理，提
 
 1. 创建 NLB
 
-    如果需要外网访问，则需要购买外网弹性IP
+    > 如果需要外网访问，则需要购买外网弹性IP
 
     ![img](/images/proxy-enable-1.png)
 
 2. NLB 添加监听器
 
     - 协议和端口：选择TCP协议。
-    - 端口：按需填写，如要代理 UClickhouse HTTP 端口，则填8123；如果要代理 TCP 端口，则填写 9000.
-    - 负载均衡算法：可以按需选择，可以使用默认的“轮询”算法。
+    - 端口：按需填写，如要代理 UClickhouse HTTP 端口，则填8123；如果要代理 TCP 端口，则填写 9000。
+    - 负载均衡算法：按需选择，建议使用默认的“轮询”算法。
 
     ![img](/images/proxy-enable-2.png)
     ![img](/images/proxy-enable-3.png)
@@ -30,7 +30,7 @@ UClickhouse 可以通过网络型负载均衡 NLB 实现集群节点代理，提
 
 4. NLB 健康检查
 
-    添加节点后，需等待健康检查通过
+    > 添加节点后，需等待健康检查通过
 
     ![img](/images/proxy-enable-5.png)
 
