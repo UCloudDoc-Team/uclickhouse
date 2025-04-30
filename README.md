@@ -26,6 +26,8 @@
   * 连接集群
     * [ClickHouse命令行工具连接](/uclickhouse/operation_guide/connect_cluster/client)
     * [可视化工具连接](/uclickhouse/operation_guide/connect_cluster/visual_tools)
+  * [开启代理](/uclickhouse/operation_guide/proxy_enable)
+  * [外网访问](/uclickhouse/operation_guide/external_network)
 * 数据同步
   * [本地数据导入](/uclickhouse/dump_data/local_data)
   * [Kafka数据导入](/uclickhouse/dump_data/kafka_data)
