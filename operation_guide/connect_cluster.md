@@ -8,7 +8,7 @@
 
   2. 在**集群列表**页面，点击**详情**可查看集群节点列表，列表中已列出节点地址。
 
-  3. 根据操作系统类型及集群内核版本下载对应版本clickhouse-client，官方旧版下载地址：[下载Clickhouse-client](https://repo.yandex.ru/clickhouse/rpm/stable/x86_64/)。官方新版下载地址：[下载Clickhouse-client](https://packages.clickhouse.com/rpm/lts/)。安装请参见[[快速上手](/uclickhouse/gettingstart)](/uclickhouse/)
+  3. 根据操作系统类型及集群内核版本下载对应版本clickhouse-client，官方下载地址：[下载Clickhouse-client](https://packages.clickhouse.com/rpm/lts/)。安装请参见[[快速上手](/uclickhouse/gettingstart)](/uclickhouse/)
 
   4. 连接云数据仓库UClickhouse，在同一地域下的云主机上执行以下命令。
 

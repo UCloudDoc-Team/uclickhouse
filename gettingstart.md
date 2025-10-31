@@ -87,24 +87,20 @@
 
 ### 连接集群
 
-- 在集群所在地域（同一网段）下建立一台云主机，在云主机上安装Clickhouse-client，官方旧版下载地址：[下载Clickhouse-client](https://repo.yandex.ru/clickhouse/rpm/stable/x86_64/)。官方新版下载地址：[下载Clickhouse-client](https://packages.clickhouse.com/rpm/lts/)。
+- 在集群所在地域（同一网段）下建立一台云主机，在云主机上安装Clickhouse-client，官方下载地址：[下载Clickhouse-client](https://packages.clickhouse.com/rpm/lts/)。
 
-  建议按实际创建的内核版本选择对应版本的Clickhouse-client，如以上创建的集群内核版本为21.8.14.5，则下载如下rpm包：
+  建议按实际创建的内核版本选择对应版本的Clickhouse-client，如以上创建的集群内核版本为22.8.2.11，则下载如下rpm包：
 
   ```
-  官方旧版地址下载
-  wget https://repo.yandex.ru/clickhouse/rpm/stable/x86_64/clickhouse-client-21.8.14.5-2.noarch.rpm
-  wget https://repo.yandex.ru/clickhouse/rpm/stable/x86_64/clickhouse-common-static-21.8.14.5-2.x86_64.rpm
-  官方新版地址下载
-  wget https://packages.clickhouse.com/rpm/lts/clickhouse-client-22.3.6.5.noarch.rpm
-  wget https://packages.clickhouse.com/rpm/lts/clickhouse-common-static-22.3.6.5.x86_64.rpm
+  wget https://packages.clickhouse.com/rpm/lts/clickhouse-client-22.8.2.11.x86_64.rpm
+  wget https://packages.clickhouse.com/rpm/lts/clickhouse-common-static-22.8.2.11.x86_64.rpm
   ```
 
 - 执行安装
 
   ```shell
-  rpm -ivh clickhouse-common-static-21.8.14.5-2.x86_64.rpm
-  rpm -ivh clickhouse-client-21.8.14.5-2.noarch.rpm
+  rpm -ivh clickhouse-common-static-22.8.2.11.x86_64.rpm
+  rpm -ivh clickhouse-client-22.8.2.11.x86_64.rpm
   ```
 
 - 通过clickhouse-client连接集群
