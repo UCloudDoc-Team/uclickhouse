@@ -1,7 +1,6 @@
 # 从mysql导入数据
 
-依据MySQL表结构在ClickHouse中进行建表操作
-MySQL中数据类型与ClickHouse类型映射关系参考:[开发指南](../developer.md)
+依据MySQL表结构在ClickHouse中进行建表操作。
 
 MySQL建表：
 
