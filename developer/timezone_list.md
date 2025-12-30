@@ -791,7 +791,7 @@
             States</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/4266307"><i class="fa fa-map-marker pr-5 pl-5"></i>Vincennes</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/4259640"><i class="fa fa-map-marker pr-5 pl-5"></i>Jasper</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/4266586"><i class="fa fa-map-marker pr-5 pl-5"></i>Washington</a>,
+            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/4266586"><i class="fa fa-map-marker pr-5 pl-5"></i>US(Washington)</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/4259271"><i class="fa fa-map-marker pr-5 pl-5"></i>Huntingburg</a>
         </td>
     </tr>
@@ -2171,10 +2171,10 @@
     </tr>
     <tr>
         <td><strong>UTC+0</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/europe--london">Europe/London</a></td>
+        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/europe--london">Europe/GB(London)</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/gb"><span class="flag-icon flag-icon-gb mr-10"></span>United
             Kingdom</a></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2643743"><i class="fa fa-map-marker pr-5 pl-5"></i>London</a>,
+        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2643743"><i class="fa fa-map-marker pr-5 pl-5"></i>GB(London)</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2655603"><i class="fa fa-map-marker pr-5 pl-5"></i>Birmingham</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2644210"><i class="fa fa-map-marker pr-5 pl-5"></i>Liverpool</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2638077"><i class="fa fa-map-marker pr-5 pl-5"></i>Sheffield</a>,
@@ -2256,11 +2256,11 @@
     </tr>
     <tr>
         <td><strong>UTC+1</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/africa--lagos">Africa/Lagos</a></td>
+        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/africa--lagos">Africa/NG(Lagos)</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ng"><span class="flag-icon flag-icon-ng mr-10"></span>Nigeria</a>
         </td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2332459"><i
-                class="fa fa-map-marker pr-5 pl-5"></i>Lagos</a>, <a
+                class="fa fa-map-marker pr-5 pl-5"></i>NG(Lagos)</a>, <a
                 href="https://www.zeitverschiebung.net/cn/city/2335204"><i
                 class="fa fa-map-marker pr-5 pl-5"></i>Kano</a>, <a
                 href="https://www.zeitverschiebung.net/cn/city/2339354"><i class="fa fa-map-marker pr-5 pl-5"></i>Ibadan</a>,
@@ -2428,7 +2428,7 @@
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2867714"><i class="fa fa-map-marker pr-5 pl-5"></i>Munich</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/2886242"><i
                     class="fa fa-map-marker pr-5 pl-5"></i>Köln</a>, <a
-                    href="https://www.zeitverschiebung.net/cn/city/2925533"><i class="fa fa-map-marker pr-5 pl-5"></i>Frankfurt
+                    href="https://www.zeitverschiebung.net/cn/city/2925533"><i class="fa fa-map-marker pr-5 pl-5"></i>DE(Frankfurt)
                 am Main</a></td>
     </tr>
     <tr>
@@ -3493,11 +3493,11 @@
     </tr>
     <tr>
         <td><strong>UTC+4</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--dubai">Asia/Dubai</a></td>
+        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--dubai">Asia/AE(Dubai)</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ae"><span class="flag-icon flag-icon-ae mr-10"></span>United
             Arab Emirates</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/292223"><i
-                class="fa fa-map-marker pr-5 pl-5"></i>Dubai</a>, <a
+                class="fa fa-map-marker pr-5 pl-5"></i>AE(Dubai)</a>, <a
                 href="https://www.zeitverschiebung.net/cn/city/292672"><i class="fa fa-map-marker pr-5 pl-5"></i>Sharjah</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/292968"><i class="fa fa-map-marker pr-5 pl-5"></i>Abu
                 Dhabi</a>, <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/292932"><i
@@ -3771,7 +3771,7 @@
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--kolkata">Asia/Kolkata</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/in"><span class="flag-icon flag-icon-in mr-10"></span>India</a>
         </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1275339"><i class="fa fa-map-marker pr-5 pl-5"></i>Mumbai</a>,
+        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1275339"><i class="fa fa-map-marker pr-5 pl-5"></i>IN(Mumbai)</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1273294"><i
                     class="fa fa-map-marker pr-5 pl-5"></i>Delhi</a>, <a
                     href="https://www.zeitverschiebung.net/cn/city/1277333"><i class="fa fa-map-marker pr-5 pl-5"></i>Bengaluru</a>,
@@ -3910,10 +3910,10 @@
     </tr>
     <tr>
         <td><strong>UTC+7</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--bangkok">Asia/Bangkok</a></td>
+        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--bangkok">Asia/TH(Bangkok)</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/th"><span class="flag-icon flag-icon-th mr-10"></span>Thailand</a>
         </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1609350"><i class="fa fa-map-marker pr-5 pl-5"></i>Bangkok</a>,
+        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1609350"><i class="fa fa-map-marker pr-5 pl-5"></i>TH(Bangkok)</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1581130"><i
                     class="fa fa-map-marker pr-5 pl-5"></i>Hanoi</a>, <a
                     href="https://www.zeitverschiebung.net/cn/city/1581298"><i class="fa fa-map-marker pr-5 pl-5"></i>Haiphong</a>,
@@ -3950,10 +3950,10 @@
     </tr>
     <tr>
         <td><strong>UTC+7</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--jakarta">Asia/Jakarta</a></td>
+        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--jakarta">Asia/ID(Jakarta)</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/id"><span class="flag-icon flag-icon-id mr-10"></span>Indonesia</a>
         </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1642911"><i class="fa fa-map-marker pr-5 pl-5"></i>Jakarta</a>,
+        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1642911"><i class="fa fa-map-marker pr-5 pl-5"></i>ID(Jakarta)</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1625822"><i class="fa fa-map-marker pr-5 pl-5"></i>Surabaya</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1214520"><i
                     class="fa fa-map-marker pr-5 pl-5"></i>Medan</a>, <a
@@ -4055,7 +4055,7 @@
                 href="https://www.zeitverschiebung.net/cn/city/1732905"><i class="fa fa-map-marker pr-5 pl-5"></i>Klang</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1771023"><i class="fa fa-map-marker pr-5 pl-5"></i>Kampung
                 Baru Subang</a>, <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1732752"><i
-                    class="fa fa-map-marker pr-5 pl-5"></i>Johor Bahru</a></td>
+                    class="fa fa-map-marker pr-5 pl-5"></i>MY(Johor) Bahru</a></td>
     </tr>
     <tr>
         <td><strong>UTC+8</strong></td>
@@ -4093,12 +4093,12 @@
     </tr>
     <tr>
         <td><strong>UTC+8</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--manila">Asia/Manila</a></td>
+        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--manila">Asia/PH(Manila)</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/ph"><span class="flag-icon flag-icon-ph mr-10"></span>Philippines</a>
         </td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1692192"><i class="fa fa-map-marker pr-5 pl-5"></i>Quezon
             City</a>, <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1701668"><i
-                class="fa fa-map-marker pr-5 pl-5"></i>Manila</a>, <a
+                class="fa fa-map-marker pr-5 pl-5"></i>PH(Manila)</a>, <a
                 href="https://www.zeitverschiebung.net/cn/city/1720151"><i class="fa fa-map-marker pr-5 pl-5"></i>Caloocan
             City</a>, <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1723510"><i
                 class="fa fa-map-marker pr-5 pl-5"></i>Budta</a>, <a
@@ -4113,7 +4113,7 @@
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1796236"><i class="fa fa-map-marker pr-5 pl-5"></i>Shanghai</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1816670"><i class="fa fa-map-marker pr-5 pl-5"></i>Beijing</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1792947"><i class="fa fa-map-marker pr-5 pl-5"></i>Tianjin</a>,
-            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1809858"><i class="fa fa-map-marker pr-5 pl-5"></i>Guangzhou</a>,
+            <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1809858"><i class="fa fa-map-marker pr-5 pl-5"></i>South China(Guangzhou)</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1795565"><i class="fa fa-map-marker pr-5 pl-5"></i>Shenzhen</a>
         </td>
     </tr>
@@ -4128,10 +4128,10 @@
     </tr>
     <tr>
         <td><strong>UTC+8</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--taipei">Asia/Taipei</a></td>
+        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--taipei">Asia/Taiwan(Taipei)</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/tw"><span class="flag-icon flag-icon-tw mr-10"></span>Taiwan</a>
         </td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1668341"><i class="fa fa-map-marker pr-5 pl-5"></i>Taipei</a>,
+        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1668341"><i class="fa fa-map-marker pr-5 pl-5"></i>Taiwan(Taipei)</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1673820"><i class="fa fa-map-marker pr-5 pl-5"></i>Kaohsiung</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1668399"><i class="fa fa-map-marker pr-5 pl-5"></i>Taichung</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1668355"><i class="fa fa-map-marker pr-5 pl-5"></i>Tainan</a>,
@@ -4213,11 +4213,11 @@
     </tr>
     <tr>
         <td><strong>UTC+9</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--seoul">Asia/Seoul</a></td>
+        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--seoul">Asia/KR(Seoul)</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/kr"><span class="flag-icon flag-icon-kr mr-10"></span>South
             Korea</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1835848"><i
-                class="fa fa-map-marker pr-5 pl-5"></i>Seoul</a>, <a
+                class="fa fa-map-marker pr-5 pl-5"></i>KR(Seoul)</a>, <a
                 href="https://www.zeitverschiebung.net/cn/city/1838524"><i class="fa fa-map-marker pr-5 pl-5"></i>Busan</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1843564"><i class="fa fa-map-marker pr-5 pl-5"></i>Incheon</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1835329"><i
@@ -4227,11 +4227,11 @@
     </tr>
     <tr>
         <td><strong>UTC+9</strong></td>
-        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--tokyo">Asia/Tokyo</a></td>
+        <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/timezone/asia--tokyo">Asia/JP(Tokyo)</a></td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/country/jp"><span class="flag-icon flag-icon-jp mr-10"></span>Japan</a>
         </td>
         <td><a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1850147"><i
-                class="fa fa-map-marker pr-5 pl-5"></i>Tokyo</a>, <a
+                class="fa fa-map-marker pr-5 pl-5"></i>JP(Tokyo)</a>, <a
                 href="https://www.zeitverschiebung.net/cn/city/1848354"><i class="fa fa-map-marker pr-5 pl-5"></i>Yokohama</a>,
             <a target="_blank" href="https://www.zeitverschiebung.net/cn/city/1853909"><i
                     class="fa fa-map-marker pr-5 pl-5"></i>Osaka</a>, <a
