@@ -1,5 +1,12 @@
 # 从mysql导入数据
 
+从MySQL导入数据有两种方式：通过UDTS导入和Clickhouse中建表导入。
+
+## 通过UDTS导入
+可通过UDTS工具，进行快捷导入操作，具体可参考文档：https://docs.ucloud.cn/udts/type/mysql_source/mysql2clickhouse
+
+## Clickhouse中建表导入
+
 依据MySQL表结构在ClickHouse中进行建表操作。
 
 MySQL建表：
