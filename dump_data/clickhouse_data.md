@@ -136,7 +136,7 @@ clickhouse-client --user xx --password xxx --max_execution_time 50000 --query="I
 若源集群和目标集群版本不一致（源集群版本低于目标集群），比如源集群版本为22.x版本，目标集群为24.x版本，则可以在源集群执行：
 
 ```sql
-clickhouse-client --user xx --password xxx --max_execution_time 50000 --query="NSERT INTO FUNCTION remote('${目标集群节点ip}:9000', '${目标集群数据库名称}.${目标集群数据表名称}', '${目标集群的用户名}', '${目标集群的用户密码}') SELECT * FROM ${源集群数据库名称}.${源集群数据表名称} WHERE create_time <= '';"
+clickhouse-client --user xx --password xxx --max_execution_time 50000 --query="INSERT INTO FUNCTION remote('${目标集群节点ip}:9000', '${目标集群数据库名称}.${目标集群数据表名称}', '${目标集群的用户名}', '${目标集群的用户密码}') SELECT * FROM ${源集群数据库名称}.${源集群数据表名称} WHERE create_time <= '';"
 ```
 
 
