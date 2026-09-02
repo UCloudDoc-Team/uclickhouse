@@ -61,7 +61,6 @@ CREATE TABLE history_update_log (
     database String, -- 发生变更的数据库
     table String -- 发生变更的表
 ) ENGINE = MergeTree() ORDER BY update_time;
-
 ```
 
 #### 1.3.2 在更新或删除旧集群的历史数据时，同步往 history_update_log 中写入一条记录。
