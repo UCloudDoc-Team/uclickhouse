@@ -191,3 +191,10 @@ settings max_memory_usage = XXX;
 SET max_memory_usage = 20000000000; #20G
 ```
 
+## 24.8版本uncompressed_cache_size参数设置过大，出现报错：MEMORY_LIMIT_EXCEEDED
+
+```
+Caused by: java.sql.BatchUpdateException: Code: 241. DB::Exception: Memory limit (total) exceeded: would use 226.77 GiB (attempt to allocate chunk of 4250960 bytes), maximum: 226.47 GiB. OvercommitTracker decision: Query was selected to stop by OvercommitTracker.: While executing BinaryRowInputFormat. (MEMORY_LIMIT_EXCEEDED) (version 24.8.14.39 (official build))
+```
+
+24.8版本经过缓存命中优化后，若`uncompressed_cache_size`参数设置过大，并且有merge、大查询操作等操作，就会将内存慢慢写满（缓存长期占用大量内存不会释放，导致其他查询或者合并没有内存），所以不建议设置过大，建议设置为内存的60%。
